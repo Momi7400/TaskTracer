@@ -1,0 +1,8 @@
+PUT http://localhost:8080/tasks/999
+Content-Type: application/json
+
+{
+  "title": "Test",
+  "description": "Test",
+  "status": "DONE"
+}
